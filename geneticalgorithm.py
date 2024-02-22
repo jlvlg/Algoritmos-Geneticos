@@ -71,7 +71,7 @@ class Individual:
 class GeneticAlgorithm:
     def run(
         self,
-        starting_solutions: pd.Series,
+        starting_solutions,
         maximize: bool = True,
         generations_unchanged: int = 40,
     ):
